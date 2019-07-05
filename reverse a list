@@ -1,0 +1,6 @@
+z = [1,2,3]
+revlist = []
+for j in range(len(z)):
+  revlist.insert(j,z[-1])
+  z.pop(-1)
+print(revlist)
