@@ -1,0 +1,11 @@
+a = [2,1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+length = len(a)
+evenlist = []
+
+for i in range(0, length):
+    if a[i] % 2 == 0:
+        evenlist.append(a[i])
+print(evenlist)'''
+
+evenlist = [ans for ans in a if ans % 2 == 0]
+print(evenlist)
