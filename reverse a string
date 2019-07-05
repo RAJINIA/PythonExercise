@@ -1,0 +1,9 @@
+def reverse(x):
+  revstr = ""
+  for i in range(1, len(x) + 1):
+    revstr = revstr + x[len(x) - i]
+  return revstr
+
+
+str = "rajini amithap"
+print(reverse(str))
